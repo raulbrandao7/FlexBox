@@ -1,0 +1,141 @@
+/* -------------------- RESET BÁSICO -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* -------------------- CONTEÚDO CENTRALIZADO -------------------- */
+  .conteudo-centralizado {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* -------------------- HEADER & NAV -------------------- */
+  header {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .imagem-centralizada  {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+.h1{
+
+    align-items: center ;
+    justify-content: center;
+}
+.titulo-centralizado {
+    text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+/* -------------------- FOOTER -------------------- */
+.footer {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  padding: 40px 20px 20px;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.footer h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #e63946;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #cccccc;
+}
+
+.footer-info p,
+.footer-social a {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer-social a {
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #e63946;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 12px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  color: #999;
+}
+
+@media (min-width: 760px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .footer-info,
+  .footer-social,
+  .footer-branding {
+    flex: 1;
+  }
+}
